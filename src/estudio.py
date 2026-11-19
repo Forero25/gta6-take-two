@@ -15,7 +15,7 @@ VENTANAS = {"d0": (0, 0), "0_1": (0, 1), "m1_1": (-1, 1), "0_5": (0, 5)}
 
 
 def retornos(precios: pd.DataFrame) -> pd.DataFrame:
-    return precios.sort_index().pct_change().dropna(how="all")
+    return precios.sort_index().pct_change(fill_method=None).iloc[1:]
 
 
 def ajustar(y, x):
@@ -49,9 +49,14 @@ def un_evento(r: pd.DataFrame, accion: str, mercado: str, dia0: str, excluir=(),
             out[nombre] = None
             continue
         seg = r.iloc[pos + i:pos + j + 1]
+        if seg[[accion, mercado]].isna().any().any():
+            out[nombre] = None
+            continue
         raa = float((seg[accion] - (a + b * seg[mercado])).sum())
         L = j - i + 1
         out[nombre] = {"raa": raa, "t": raa / (sigma * np.sqrt(L)), "observado": float(seg[accion].sum())}
+    if out["d0"] is None:
+        return None
     ra0 = out["d0"]["raa"]
     out["percentil_abs"] = float((np.abs(resid) < abs(ra0)).mean())
     return out

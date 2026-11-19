@@ -10,7 +10,7 @@ Estudio de eventos con modelo de mercado (MacKinlay, 1997):
 2. **Retorno normal:** regresión del retorno de TTWO sobre el del Nasdaq-100 (QQQ) en 250 sesiones que terminan 21 sesiones antes del día 0, sin los días cercanos a otros anuncios.
 3. **Retorno anormal:** lo observado menos lo que el modelo esperaba ese día; se acumula en ventanas de [0, 1], [-1, 1] y [0, 5] sesiones.
 4. **Pruebas:** estadístico t con la volatilidad de los residuos, y percentil del movimiento frente a los días normales.
-5. **Robustez:** el mismo cálculo contra el ETF de videojuegos ESPO, y un placebo con Electronic Arts (EA), que no debería reaccionar a GTA VI.
+5. **Robustez:** el mismo cálculo contra el ETF de videojuegos ESPO, y un placebo con Roblox (RBLX), una acción de videojuegos que no debería reaccionar a GTA VI. Electronic Arts no sirve de placebo: su compra se anunció en septiembre de 2025 y dejó de cotizar en agosto de 2026.
 
 El flujo de GitHub Actions corre cada día hábil después del cierre de Nueva York, así que el evento del lanzamiento se completa solo a medida que pasan las sesiones.
 

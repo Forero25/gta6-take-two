@@ -12,7 +12,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from eventos import EVENTOS
 from estudio import estudio, retornos
 
-TICKERS = ["TTWO", "QQQ", "ESPO", "EA"]   # acción, Nasdaq-100, ETF de videojuegos, par más cercano
+TICKERS = ["TTWO", "QQQ", "ESPO", "RBLX"]   # acción, Nasdaq-100, ETF de videojuegos, placebo
+# Placebo: Roblox, videojuegos sin relación con GTA VI. EA no sirve: su compra se anunció en sept. 2025
+# y dejó de cotizar el 4-ago-2026.
 INICIO = "2020-06-01"
 
 
@@ -30,7 +32,7 @@ def descargar():
             time.sleep(5)
         else:
             raise SystemExit(f"No se pudo descargar {t}")
-    df = pd.DataFrame(series).dropna()
+    df = pd.DataFrame(series).dropna(subset=["TTWO", "QQQ"])
     if len(df) < 1000:
         raise SystemExit(f"Muy pocas sesiones: {len(df)}")
     acciones = yf.Ticker("TTWO").get_shares_full(start=INICIO, end=fin)
@@ -42,13 +44,13 @@ def main():
     r = retornos(precios)
     base = estudio(r, EVENTOS, "TTWO", "QQQ")
     sector = estudio(r, EVENTOS, "TTWO", "ESPO")
-    placebo = estudio(r, EVENTOS, "EA", "QQQ")   # EA no debería reaccionar a GTA VI
+    placebo = estudio(r, EVENTOS, "RBLX", "QQQ")   # Roblox no debería reaccionar a GTA VI
     acciones = acciones.sort_index()
     acciones.index = pd.to_datetime(acciones.index).tz_localize(None).normalize()
     salida = {"ultimo_dato": str(r.index[-1].date()), "tickers": TICKERS, "eventos": []}
     for e in EVENTOS:
         b = base[e["id"]]
-        fila = {**e, "mercado": b, "sector": sector[e["id"]], "placebo_ea": placebo[e["id"]]}
+        fila = {**e, "mercado": b, "sector": sector[e["id"]], "placebo": placebo[e["id"]]}
         if b and b["0_1"]:
             d = pd.Timestamp(b["dia0_efectivo"])
             prev = precios.index[precios.index < d][-1]
