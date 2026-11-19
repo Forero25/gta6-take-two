@@ -1,0 +1,1303 @@
+{
+ "ultimo_dato": "2026-11-18",
+ "tickers": [
+  "TTWO",
+  "QQQ",
+  "ESPO",
+  "EA"
+ ],
+ "eventos": [
+  {
+   "id": "confirmacion",
+   "fecha": "2022-02-04",
+   "dia0": "2022-02-04",
+   "tipo": "anuncio",
+   "confundido": false,
+   "es": "Rockstar confirma que el próximo GTA está en desarrollo",
+   "en": "Rockstar confirms the next GTA is in development",
+   "fuente": "https://www.rockstargames.com/newswire (actualización de la comunidad, 4-feb-2022)",
+   "mercado": {
+    "dia0_efectivo": "2022-02-04",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 1202,
+    "ra": {
+     "2022-02-03": NaN,
+     "2022-02-04": NaN,
+     "2022-02-07": NaN,
+     "2022-02-08": NaN,
+     "2022-02-09": NaN,
+     "2022-02-10": NaN,
+     "2022-02-11": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.07348788745899237
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.07405935090765303
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.06176005528958328
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.05336553034800939
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2022-02-04",
+    "alfa": -0.0004215107659427685,
+    "beta": 0.5902039435836588,
+    "sigma": 0.016082822865078887,
+    "n_estimacion": 250,
+    "sesiones_disponibles": 1202,
+    "ra": {
+     "2022-02-03": 0.0034789011834240914,
+     "2022-02-04": 0.05641191779463509,
+     "2022-02-07": 0.0021134559238137115,
+     "2022-02-08": -0.019040570506294305,
+     "2022-02-09": -0.017290771126627386,
+     "2022-02-10": 0.018660341900153386,
+     "2022-02-11": 0.007681911151595708
+    },
+    "d0": {
+     "raa": 0.05641191779463509,
+     "t": 3.5075880812642644,
+     "observado": 0.07348788745899237
+    },
+    "0_1": {
+     "raa": 0.058525373718448806,
+     "t": 2.573160755109088,
+     "observado": 0.07405935090765303
+    },
+    "m1_1": {
+     "raa": 0.0620042749018729,
+     "t": 2.2258645205397083,
+     "observado": 0.06176005528958328
+    },
+    "0_5": {
+     "raa": 0.04853628513727621,
+     "t": 1.2320508407627995,
+     "observado": 0.05336553034800939
+    },
+    "percentil_abs": 0.988
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2022-02-04",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 1202,
+    "ra": {
+     "2022-02-03": NaN,
+     "2022-02-04": NaN,
+     "2022-02-07": NaN,
+     "2022-02-08": NaN,
+     "2022-02-09": NaN,
+     "2022-02-10": NaN,
+     "2022-02-11": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 18815.11681311035,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "filtracion",
+   "fecha": "2022-09-18",
+   "dia0": "2022-09-19",
+   "tipo": "filtracion",
+   "confundido": false,
+   "es": "Se filtran 90 videos del juego en desarrollo (domingo)",
+   "en": "90 in-development clips leak (Sunday)",
+   "fuente": "Bloomberg/Reuters, 19-sep-2022",
+   "mercado": {
+    "dia0_efectivo": "2022-09-19",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 1047,
+    "ra": {
+     "2022-09-16": NaN,
+     "2022-09-19": NaN,
+     "2022-09-20": NaN,
+     "2022-09-21": NaN,
+     "2022-09-22": NaN,
+     "2022-09-23": NaN,
+     "2022-09-26": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.00716643346607837
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.019936215558721826
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.05295023468335702
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.12321568557096418
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2022-09-19",
+    "alfa": -0.00028622714700464664,
+    "beta": 0.6530331737757787,
+    "sigma": 0.021246449988814222,
+    "n_estimacion": 239,
+    "sesiones_disponibles": 1047,
+    "ra": {
+     "2022-09-16": -0.019769094879952813,
+     "2022-09-19": 0.007601244100378581,
+     "2022-09-20": -0.017901321482740068,
+     "2022-09-21": -0.02240880816514875,
+     "2022-09-22": -0.01844199147284052,
+     "2022-09-23": -0.020889009383669156,
+     "2022-09-26": -0.004016356887954592
+    },
+    "d0": {
+     "raa": 0.007601244100378581,
+     "t": 0.35776537277429715,
+     "observado": 0.00716643346607837
+    },
+    "0_1": {
+     "raa": -0.010300077382361487,
+     "t": -0.34279865895942435,
+     "observado": -0.019936215558721826
+    },
+    "m1_1": {
+     "raa": -0.0300691722623143,
+     "t": -0.8170986074895464,
+     "observado": -0.05295023468335702
+    },
+    "0_5": {
+     "raa": -0.07605624329197451,
+     "t": -1.4614126745597162,
+     "observado": -0.12321568557096418
+    },
+    "percentil_abs": 0.4100418410041841
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2022-09-19",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 1047,
+    "ra": {
+     "2022-09-16": NaN,
+     "2022-09-19": NaN,
+     "2022-09-20": NaN,
+     "2022-09-21": NaN,
+     "2022-09-22": NaN,
+     "2022-09-23": NaN,
+     "2022-09-26": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 20701.35669048047,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "anuncio_trailer",
+   "fecha": "2023-11-08",
+   "dia0": "2023-11-08",
+   "tipo": "anuncio",
+   "confundido": false,
+   "es": "Rockstar anuncia el primer tráiler para diciembre (antes de la apertura)",
+   "en": "Rockstar announces the first trailer for December (pre-market)",
+   "fuente": "Rockstar Games en X, 8-nov-2023; el reporte trimestral salió ese día después del cierre, así que entra en el día +1",
+   "mercado": {
+    "dia0_efectivo": "2023-11-08",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 760,
+    "ra": {
+     "2023-11-07": NaN,
+     "2023-11-08": NaN,
+     "2023-11-09": NaN,
+     "2023-11-10": NaN,
+     "2023-11-13": NaN,
+     "2023-11-14": NaN,
+     "2023-11-15": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.052141394679722675
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.07200621714620747
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.08681611195515293
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.12318593830799518
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2023-11-08",
+    "alfa": 0.00030784780818543766,
+    "beta": 0.6579421117206425,
+    "sigma": 0.0180190706266158,
+    "n_estimacion": 250,
+    "sesiones_disponibles": 760,
+    "ra": {
+     "2023-11-07": 0.0074247565995458975,
+     "2023-11-08": 0.04569139675340108,
+     "2023-11-09": 0.01882673945178303,
+     "2023-11-10": -0.00022299681959677374,
+     "2023-11-13": 0.01272228268226033,
+     "2023-11-14": 0.021149138972839442,
+     "2023-11-15": -5.847803427520056e-06
+    },
+    "d0": {
+     "raa": 0.04569139675340108,
+     "t": 2.5357243833603023,
+     "observado": 0.052141394679722675
+    },
+    "0_1": {
+     "raa": 0.06451813620518411,
+     "t": 2.5318293360156057,
+     "observado": 0.07200621714620747
+    },
+    "m1_1": {
+     "raa": 0.07194289280473001,
+     "t": 2.305127128240369,
+     "observado": 0.08681611195515293
+    },
+    "0_5": {
+     "raa": 0.0981607132372596,
+     "t": 2.2239739329636614,
+     "observado": 0.12318593830799518
+    },
+    "percentil_abs": 0.988
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2023-11-08",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 760,
+    "ra": {
+     "2023-11-07": NaN,
+     "2023-11-08": NaN,
+     "2023-11-09": NaN,
+     "2023-11-10": NaN,
+     "2023-11-13": NaN,
+     "2023-11-14": NaN,
+     "2023-11-15": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 23158.156354536623,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "trailer_1",
+   "fecha": "2023-12-04",
+   "dia0": "2023-12-05",
+   "tipo": "trailer",
+   "confundido": false,
+   "es": "Tráiler 1, publicado de noche tras filtrarse; fecha: 2025",
+   "en": "Trailer 1, released at night after a leak; date: 2025",
+   "fuente": "CNBC, 4-dic-2023",
+   "mercado": {
+    "dia0_efectivo": "2023-12-05",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 742,
+    "ra": {
+     "2023-12-04": NaN,
+     "2023-12-05": NaN,
+     "2023-12-06": NaN,
+     "2023-12-07": NaN,
+     "2023-12-08": NaN,
+     "2023-12-11": NaN,
+     "2023-12-12": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.0050774502675421385
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.0015050284953634918
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.0032789691047986347
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.0014312434396658302
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2023-12-05",
+    "alfa": 0.00034155775404028554,
+    "beta": 0.7102570865365797,
+    "sigma": 0.017503274959527904,
+    "n_estimacion": 247,
+    "sesiones_disponibles": 742,
+    "ra": {
+     "2023-12-04": 0.006929950296368151,
+     "2023-12-05": 0.0012912677757298836,
+     "2023-12-06": 0.007139100715484825,
+     "2023-12-07": -0.031637726192467394,
+     "2023-12-08": 0.004665042099769832,
+     "2023-12-11": -0.017468876754996174,
+     "2023-12-12": 0.02389879206998197
+    },
+    "d0": {
+     "raa": 0.0012912677757298836,
+     "t": 0.07377292413651894,
+     "observado": -0.0050774502675421385
+    },
+    "0_1": {
+     "raa": 0.008430368491214708,
+     "t": 0.34057459200195905,
+     "observado": -0.0015050284953634918
+    },
+    "m1_1": {
+     "raa": 0.01536031878758286,
+     "t": 0.5066642789623768,
+     "observado": -0.0032789691047986347
+    },
+    "0_5": {
+     "raa": -0.012112400286497054,
+     "t": -0.2825109427698666,
+     "observado": -0.0014312434396658302
+    },
+    "percentil_abs": 0.08502024291497975
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2023-12-05",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 742,
+    "ra": {
+     "2023-12-04": NaN,
+     "2023-12-05": NaN,
+     "2023-12-06": NaN,
+     "2023-12-07": NaN,
+     "2023-12-08": NaN,
+     "2023-12-11": NaN,
+     "2023-12-12": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 26795.913664794924,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "ventana_otono_2025",
+   "fecha": "2024-05-16",
+   "dia0": "2024-05-17",
+   "tipo": "fecha",
+   "confundido": true,
+   "es": "Take-Two acota el lanzamiento a otoño de 2025 (con el reporte anual)",
+   "en": "Take-Two narrows the launch to fall 2025 (with annual results)",
+   "fuente": "Comunicado de resultados de Take-Two, 16-may-2024, 16:05 ET",
+   "mercado": {
+    "dia0_efectivo": "2024-05-17",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 629,
+    "ra": {
+     "2024-05-16": NaN,
+     "2024-05-17": NaN,
+     "2024-05-20": NaN,
+     "2024-05-21": NaN,
+     "2024-05-22": NaN,
+     "2024-05-23": NaN,
+     "2024-05-24": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.012048155016258999
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0327461909631761
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.019239978272269975
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.05716498495555422
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2024-05-17",
+    "alfa": -0.00012514374849900494,
+    "beta": 0.6044039779769473,
+    "sigma": 0.014570678650809164,
+    "n_estimacion": 228,
+    "sesiones_disponibles": 629,
+    "ra": {
+     "2024-05-16": -0.008037141305172708,
+     "2024-05-17": 0.018283860435958282,
+     "2024-05-20": 0.016647375511280964,
+     "2024-05-21": 0.010332812613058642,
+     "2024-05-22": -0.00048297937025513094,
+     "2024-05-23": 0.02367570601218299,
+     "2024-05-24": 0.009400213046162974
+    },
+    "d0": {
+     "raa": 0.018283860435958282,
+     "t": 1.2548393162828357,
+     "observado": 0.012048155016258999
+    },
+    "0_1": {
+     "raa": 0.03493123594723925,
+     "t": 1.6951930932982644,
+     "observado": 0.0327461909631761
+    },
+    "m1_1": {
+     "raa": 0.02689409464206654,
+     "t": 1.0656547408206067,
+     "observado": 0.019239978272269975
+    },
+    "0_5": {
+     "raa": 0.07785698824838871,
+     "t": 2.1814345861854987,
+     "observado": 0.05716498495555422
+    },
+    "percentil_abs": 0.9078947368421053
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2024-05-17",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 629,
+    "ra": {
+     "2024-05-16": NaN,
+     "2024-05-17": NaN,
+     "2024-05-20": NaN,
+     "2024-05-21": NaN,
+     "2024-05-22": NaN,
+     "2024-05-23": NaN,
+     "2024-05-24": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 25284.111036926268,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "aplazamiento_1",
+   "fecha": "2025-05-02",
+   "dia0": "2025-05-02",
+   "tipo": "aplazamiento",
+   "confundido": false,
+   "es": "Primer aplazamiento: de otoño de 2025 al 26 de mayo de 2026",
+   "en": "First delay: from fall 2025 to May 26, 2026",
+   "fuente": "Reuters, 2-may-2025 (antes de la apertura)",
+   "mercado": {
+    "dia0_efectivo": "2025-05-02",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 390,
+    "ra": {
+     "2025-05-01": NaN,
+     "2025-05-02": NaN,
+     "2025-05-05": NaN,
+     "2025-05-06": NaN,
+     "2025-05-07": NaN,
+     "2025-05-08": NaN,
+     "2025-05-09": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.0666326414549191
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.040117801709047884
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.03218881668139073
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.03395746282623424
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2025-05-02",
+    "alfa": 0.0004987847349374475,
+    "beta": 0.51080979397046,
+    "sigma": 0.0155979432317758,
+    "n_estimacion": 239,
+    "sesiones_disponibles": 390,
+    "ra": {
+     "2025-05-01": 0.006835824598385975,
+     "2025-05-02": -0.08569849263846421,
+     "2025-05-05": 0.026224386864920003,
+     "2025-05-06": 0.028125183871835213,
+     "2025-05-07": -0.017296691877285403,
+     "2025-05-08": -0.005644993212303606,
+     "2025-05-09": 0.006381459956632087
+    },
+    "d0": {
+     "raa": -0.08569849263846421,
+     "t": -5.494217498104562,
+     "observado": -0.0666326414549191
+    },
+    "0_1": {
+     "raa": -0.059474105773544214,
+     "t": -2.6961595431253067,
+     "observado": -0.040117801709047884
+    },
+    "m1_1": {
+     "raa": -0.052638281175158244,
+     "t": -1.9483803315968917,
+     "observado": -0.03218881668139073
+    },
+    "0_5": {
+     "raa": -0.04790914703466592,
+     "t": -1.2539363096693024,
+     "observado": -0.03395746282623424
+    },
+    "percentil_abs": 0.99581589958159
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2025-05-02",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 390,
+    "ra": {
+     "2025-05-01": NaN,
+     "2025-05-02": NaN,
+     "2025-05-05": NaN,
+     "2025-05-06": NaN,
+     "2025-05-07": NaN,
+     "2025-05-08": NaN,
+     "2025-05-09": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 41506.563996826175,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "trailer_2",
+   "fecha": "2025-05-06",
+   "dia0": "2025-05-06",
+   "tipo": "trailer",
+   "confundido": false,
+   "es": "Tráiler 2, sin aviso previo, durante la sesión",
+   "en": "Trailer 2, unannounced, during the session",
+   "fuente": "Comunicado de Take-Two, 6-may-2025",
+   "mercado": {
+    "dia0_efectivo": "2025-05-06",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 388,
+    "ra": {
+     "2025-05-05": NaN,
+     "2025-05-06": NaN,
+     "2025-05-07": NaN,
+     "2025-05-08": NaN,
+     "2025-05-09": NaN,
+     "2025-05-12": NaN,
+     "2025-05-13": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.02893657376945713
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.005213315975818533
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.031728155721689744
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.00443834056999981
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2025-05-06",
+    "alfa": 0.00033743872442921525,
+    "beta": 0.549371484651504,
+    "sigma": 0.01576937372222202,
+    "n_estimacion": 239,
+    "sesiones_disponibles": 388,
+    "ra": {
+     "2025-05-05": 0.026401460115992637,
+     "2025-05-06": 0.02826293091511332,
+     "2025-05-07": -0.01661254220712714,
+     "2025-05-08": -0.0055752991863059626,
+     "2025-05-09": 0.00669387060205946,
+     "2025-05-12": -0.007120118582340919,
+     "2025-05-13": -0.003831669910190413
+    },
+    "d0": {
+     "raa": 0.02826293091511332,
+     "t": 1.7922671764247378,
+     "observado": 0.02893657376945713
+    },
+    "0_1": {
+     "raa": 0.011650388707986181,
+     "t": 0.5224093869541069,
+     "observado": 0.005213315975818533
+    },
+    "m1_1": {
+     "raa": 0.038051848823978815,
+     "t": 1.3931590149790354,
+     "observado": 0.031728155721689744
+    },
+    "0_5": {
+     "raa": 0.0018171716312083454,
+     "t": 0.0470441772126194,
+     "observado": 0.00443834056999981
+    },
+    "percentil_abs": 0.9707112970711297
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2025-05-06",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 388,
+    "ra": {
+     "2025-05-05": NaN,
+     "2025-05-06": NaN,
+     "2025-05-07": NaN,
+     "2025-05-08": NaN,
+     "2025-05-09": NaN,
+     "2025-05-12": NaN,
+     "2025-05-13": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 39768.08001269531,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "aplazamiento_2",
+   "fecha": "2025-11-06",
+   "dia0": "2025-11-07",
+   "tipo": "aplazamiento",
+   "confundido": true,
+   "es": "Segundo aplazamiento: al 19 de noviembre de 2026 (con el reporte trimestral)",
+   "en": "Second delay: to November 19, 2026 (with quarterly results)",
+   "fuente": "Comunicado de resultados de Take-Two, 6-nov-2025, después del cierre",
+   "mercado": {
+    "dia0_efectivo": "2025-11-07",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 259,
+    "ra": {
+     "2025-11-06": NaN,
+     "2025-11-07": NaN,
+     "2025-11-10": NaN,
+     "2025-11-11": NaN,
+     "2025-11-12": NaN,
+     "2025-11-13": NaN,
+     "2025-11-14": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.08082406652058371
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.07194476669905892
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.08120838995717705
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.06728845259251115
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2025-11-07",
+    "alfa": 0.0010931027849536432,
+    "beta": 0.6535442575803841,
+    "sigma": 0.016220552085389812,
+    "n_estimacion": 237,
+    "sesiones_disponibles": 259,
+    "ra": {
+     "2025-11-06": -0.004472549043219138,
+     "2025-11-07": -0.07918125247396397,
+     "2025-11-10": 0.0026420457250620095,
+     "2025-11-11": 0.02524566525117724,
+     "2025-11-12": -0.0012010434606294846,
+     "2025-11-13": -0.001692368646597612,
+     "2025-11-14": -0.01034588355075092
+    },
+    "d0": {
+     "raa": -0.07918125247396397,
+     "t": -4.881538683586743,
+     "observado": -0.08082406652058371
+    },
+    "0_1": {
+     "raa": -0.07653920674890197,
+     "t": -3.3365937135725483,
+     "observado": -0.07194476669905892
+    },
+    "m1_1": {
+     "raa": -0.08101175579212111,
+     "t": -2.883512149764249,
+     "observado": -0.08120838995717705
+    },
+    "0_5": {
+     "raa": -0.06453283715570274,
+     "t": -1.6241999846187956,
+     "observado": -0.06728845259251115
+    },
+    "percentil_abs": 0.9957805907172996
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2025-11-07",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 259,
+    "ra": {
+     "2025-11-06": NaN,
+     "2025-11-07": NaN,
+     "2025-11-10": NaN,
+     "2025-11-11": NaN,
+     "2025-11-12": NaN,
+     "2025-11-13": NaN,
+     "2025-11-14": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 46560.28038288318,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "fecha_confirmada",
+   "fecha": "2026-05-21",
+   "dia0": "2026-05-22",
+   "tipo": "fecha",
+   "confundido": true,
+   "es": "Take-Two confirma el 19 de noviembre (con el reporte anual)",
+   "en": "Take-Two confirms November 19 (with annual results)",
+   "fuente": "Comunicado de resultados de Take-Two, 21-may-2026, después del cierre",
+   "mercado": {
+    "dia0_efectivo": "2026-05-22",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 125,
+    "ra": {
+     "2026-05-21": NaN,
+     "2026-05-22": NaN,
+     "2026-05-26": NaN,
+     "2026-05-27": NaN,
+     "2026-05-28": NaN,
+     "2026-05-29": NaN,
+     "2026-06-01": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.04422882517771953
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.07446395939236328
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.06829370014126268
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": -0.045728920085222335
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2026-05-22",
+    "alfa": 0.0002280627741015694,
+    "beta": 0.7594232473865941,
+    "sigma": 0.014830027609232146,
+    "n_estimacion": 226,
+    "sesiones_disponibles": 125,
+    "ra": {
+     "2026-05-21": 0.0185964746838057,
+     "2026-05-22": -0.04437164662396883,
+     "2026-05-26": -0.02654250109079251,
+     "2026-05-27": -0.011785131312897549,
+     "2026-05-28": -0.00643442687786627,
+     "2026-05-29": 0.02940841475117351,
+     "2026-06-01": -0.0016196818162261106
+    },
+    "d0": {
+     "raa": -0.04437164662396883,
+     "t": -2.992013757030777,
+     "observado": -0.04422882517771953
+    },
+    "0_1": {
+     "raa": -0.07091414771476134,
+     "t": -3.3812394725385513,
+     "observado": -0.07446395939236328
+    },
+    "m1_1": {
+     "raa": -0.052317673030955636,
+     "t": -2.0367880224978907,
+     "observado": -0.06829370014126268
+    },
+    "0_5": {
+     "raa": -0.06134497297057777,
+     "t": -1.6887345731035335,
+     "observado": -0.045728920085222335
+    },
+    "percentil_abs": 0.9823008849557522
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2026-05-22",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 125,
+    "ra": {
+     "2026-05-21": NaN,
+     "2026-05-22": NaN,
+     "2026-05-26": NaN,
+     "2026-05-27": NaN,
+     "2026-05-28": NaN,
+     "2026-05-29": NaN,
+     "2026-06-01": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 44086.57290354639,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "preventa",
+   "fecha": "2026-06-18",
+   "dia0": "2026-06-18",
+   "tipo": "anuncio",
+   "confundido": false,
+   "es": "Rockstar anuncia la preventa para el 25 de junio",
+   "en": "Rockstar announces pre-orders for June 25",
+   "fuente": "Anuncio de Rockstar, 18-jun-2026",
+   "mercado": {
+    "dia0_efectivo": "2026-06-18",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 107,
+    "ra": {
+     "2026-06-17": NaN,
+     "2026-06-18": NaN,
+     "2026-06-22": NaN,
+     "2026-06-23": NaN,
+     "2026-06-24": NaN,
+     "2026-06-25": NaN,
+     "2026-06-26": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.04933561399914099
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0505476189573546
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.042111725444685444
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.04676493992940167
+    },
+    "percentil_abs": NaN
+   },
+   "sector": {
+    "dia0_efectivo": "2026-06-18",
+    "alfa": 0.0007318151848118101,
+    "beta": 0.6970843887086072,
+    "sigma": 0.015635280937516326,
+    "n_estimacion": 236,
+    "sesiones_disponibles": 107,
+    "ra": {
+     "2026-06-17": -0.0021795955074096866,
+     "2026-06-18": 0.04551058584336829,
+     "2026-06-22": 0.0076657814925200655,
+     "2026-06-23": 0.017587984272466824,
+     "2026-06-24": -0.024943886379774,
+     "2026-06-25": 0.01922282105113574,
+     "2026-06-26": -0.011830702553625226
+    },
+    "d0": {
+     "raa": 0.04551058584336829,
+     "t": 2.9107622706137106,
+     "observado": 0.04933561399914099
+    },
+    "0_1": {
+     "raa": 0.053176367335888354,
+     "t": 2.404905296703065,
+     "observado": 0.0505476189573546
+    },
+    "m1_1": {
+     "raa": 0.05099677182847867,
+     "t": 1.8831129456923672,
+     "observado": 0.042111725444685444
+    },
+    "0_5": {
+     "raa": 0.05321258372609168,
+     "t": 1.3894183560984974,
+     "observado": 0.04676493992940167
+    },
+    "percentil_abs": 0.9830508474576272
+   },
+   "placebo_ea": {
+    "dia0_efectivo": "2026-06-18",
+    "alfa": 0.0,
+    "beta": 0.0,
+    "sigma": -0.0,
+    "n_estimacion": 0,
+    "sesiones_disponibles": 107,
+    "ra": {
+     "2026-06-17": NaN,
+     "2026-06-18": NaN,
+     "2026-06-22": NaN,
+     "2026-06-23": NaN,
+     "2026-06-24": NaN,
+     "2026-06-25": NaN,
+     "2026-06-26": NaN
+    },
+    "d0": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "m1_1": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "0_5": {
+     "raa": 0.0,
+     "t": NaN,
+     "observado": 0.0
+    },
+    "percentil_abs": NaN
+   },
+   "capitalizacion_previa_musd": 42337.56893724613,
+   "valor_raa_0_1_musd": 0.0
+  },
+  {
+   "id": "lanzamiento",
+   "fecha": "2026-11-19",
+   "dia0": "2026-11-19",
+   "tipo": "lanzamiento",
+   "confundido": false,
+   "es": "Lanzamiento de GTA VI",
+   "en": "GTA VI launches",
+   "fuente": "Rockstar Games",
+   "mercado": null,
+   "sector": null,
+   "placebo_ea": null
+  }
+ ],
+ "promedios": {
+  "anuncio": {
+   "n": 3,
+   "raa_0_1_promedio": 0.0
+  },
+  "aplazamiento": {
+   "n": 1,
+   "raa_0_1_promedio": 0.0
+  },
+  "filtracion": {
+   "n": 1,
+   "raa_0_1_promedio": 0.0
+  },
+  "trailer": {
+   "n": 2,
+   "raa_0_1_promedio": 0.0
+  }
+ },
+ "volatilidad_diaria_normal": 0.0
+}
