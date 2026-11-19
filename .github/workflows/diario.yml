@@ -1,0 +1,26 @@
+name: Estudio de eventos
+on:
+  push:
+    branches: [main]
+    paths: ["src/**", "tests/**", ".github/workflows/**", "requirements.txt"]
+  schedule:
+    - cron: "37 22 * * 1-5"   # después del cierre de Nueva York
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+      - run: python src/correr.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resultados/
+          git diff --cached --quiet || (git commit -m "Resultados actualizados" && git push)
