@@ -17,9 +17,22 @@ INICIO = "2020-06-01"
 
 
 def descargar():
+    import time
     import yfinance as yf
     fin = (date.today() + timedelta(days=1)).isoformat()
-    df = yf.download(TICKERS, start=INICIO, end=fin, auto_adjust=True, progress=False)["Close"]
+    series = {}
+    for t in TICKERS:  # uno por uno: la descarga en paralelo de yfinance falla con "database is locked"
+        for intento in range(3):
+            d = yf.download(t, start=INICIO, end=fin, auto_adjust=True, progress=False, threads=False)
+            if len(d):
+                series[t] = d["Close"].squeeze()
+                break
+            time.sleep(5)
+        else:
+            raise SystemExit(f"No se pudo descargar {t}")
+    df = pd.DataFrame(series).dropna()
+    if len(df) < 1000:
+        raise SystemExit(f"Muy pocas sesiones: {len(df)}")
     acciones = yf.Ticker("TTWO").get_shares_full(start=INICIO, end=fin)
     return df, acciones
 
